@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: #000;
+}
+
+
+
+.angeles{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*nav*/
+nav{
+    top: 0;
+    position: fixed;
+    background-color: #000;
+    border-right: 1px solid #777;
+    width: 290px;
+    height: 100vh;
+    margin-right: calc(100%-250px);
+}
+
+nav .logo{
+    color: #fff;
+    font-family: billabong;
+    padding: 35px;
+    cursor: pointer;
+}
+
+nav ul li{
+    margin-bottom: 15px;
+    padding: 17px;
+    border-radius: 15px;
+}
+
+
+nav ul li a{
+    padding: 20px 30px;
+    margin: 5px;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+nav ul li a:hover{
+    background: #09389c;
+    transition: 1s;
+}
+
+
+nav ul li a.active{
+    background: #09389c;
+    transition: 1s;
+}
+
+nav ul li a:hover i{
+    background: #09389c;
+    transition: 1s;
+}
+
+
+
+i{
+    margin-right: 10px;
+}
+
+.activo{
+    background: #555;
+}
+
+
+
+
+.acercade{
+    margin-left: 290px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.mision{
+    padding: 50px;
+    text-align: left;
+    line-height: 40px;
+    background-color: #333;
+    height: 84.5vh;
+    font-size: 20px;
+}
+
+.mision h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.vision{
+    padding: 50px;
+    text-align: left;
+    line-height: 40px;
+    background-color: #111;
+    height: 84.5vh;
+    font-size: 20px;
+}
+
+
+.vision h1{
+    
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
